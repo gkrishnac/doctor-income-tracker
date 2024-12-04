@@ -1,0 +1,25 @@
+.consultation-list {
+  .filters {
+    margin-bottom: 24px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+  }
+
+  .status-chip {
+    &.completed {
+      background-color: #4caf50;
+      color: white;
+    }
+
+    &.pending {
+      background-color: #ff9800;
+      color: white;
+    }
+  }
+
+  .amount-cell {
+    text-align: right;
+    font-family: monospace;
+  }
+}

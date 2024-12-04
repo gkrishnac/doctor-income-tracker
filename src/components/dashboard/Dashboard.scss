@@ -1,0 +1,22 @@
+.dashboard {
+  .chart-container {
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  .MuiCard-root {
+    height: 100%;
+    
+    .MuiCardContent-root {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  }
+
+  .MuiTypography-h5 {
+    margin-top: 8px;
+    font-weight: 500;
+  }
+}

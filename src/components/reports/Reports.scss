@@ -1,0 +1,35 @@
+.reports-dashboard {
+  .header {
+    margin-bottom: 24px;
+    
+    .controls {
+      display: flex;
+      gap: 16px;
+      margin-top: 16px;
+      flex-wrap: wrap;
+    }
+  }
+
+  .chart-paper {
+    padding: 24px;
+    height: 100%;
+  }
+
+  .monthly-income-chart {
+    height: 400px;
+  }
+
+  .establishment-analysis {
+    height: 350px;
+  }
+
+  .income-breakdown {
+    .MuiTableContainer-root {
+      margin-top: 16px;
+    }
+
+    .percentage-cell {
+      color: #666;
+    }
+  }
+}

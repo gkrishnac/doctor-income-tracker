@@ -1,0 +1,17 @@
+.patient-list {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .search-field {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .MuiTableContainer-root {
+    margin-top: 20px;
+  }
+}

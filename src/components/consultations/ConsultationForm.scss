@@ -1,0 +1,28 @@
+.consultation-form {
+  padding: 24px;
+
+  .form-section {
+    margin-top: 24px;
+    padding: 16px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+  }
+
+  .deductibles-section {
+    margin-top: 16px;
+    
+    .deductible-item {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 8px;
+    }
+  }
+
+  .calculation-summary {
+    margin-top: 24px;
+    padding: 16px;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+  }
+}
